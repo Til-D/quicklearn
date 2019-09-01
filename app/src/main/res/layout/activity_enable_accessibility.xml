@@ -1,0 +1,52 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnableAccessibilityActivity">
+
+    <LinearLayout
+        style="@style/width_match_parent_max_400"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5sp"
+        android:layout_gravity="top|center">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp"
+            android:text="@string/acc_title"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="160sp"
+            android:layout_marginTop="5sp"
+            android:layout_weight="1"
+            android:background="@drawable/linear_layout_background"
+            android:contentDescription="@string/acc_alt"
+            android:padding="5sp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/accessibility" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/linear_layout_background"
+            android:padding="5sp"
+            android:text="@string/acc_explanation" />
+
+        <Button
+            android:id="@+id/acc_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5sp"
+            android:onClick="onOpenAccessibilitySettings"
+            android:padding="5sp"
+            android:text="@string/acc_opensettings"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,211 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".EnterEmailActivity">
+
+    <!-- OVERALL progress -->
+
+    <LinearLayout
+        style="@style/width_match_parent_max_400"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5sp"
+        android:layout_gravity="top|center">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp"
+            android:text="@string/em_title"
+            android:textSize="16sp" />
+
+        <!-- Website: -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/linear_layout_background"
+            android:orientation="vertical"
+            android:padding="5sp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="6sp"
+                android:text="@string/em_your_website" />
+
+        </LinearLayout>
+
+        <!-- Age -->
+
+        <LinearLayout
+            android:id="@+id/em_age_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/linear_layout_background"
+            android:orientation="vertical"
+            android:padding="5sp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/em_age"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/em_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/em_age_hint"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <!-- Gender -->
+
+        <LinearLayout
+            android:id="@+id/em_gender_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/linear_layout_background"
+            android:orientation="vertical"
+            android:padding="5sp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/em_gender"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/em_gender"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Phone Usage-->
+
+        <LinearLayout
+            android:id="@+id/em_usage_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/linear_layout_background"
+            android:orientation="vertical"
+            android:padding="5sp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/em_usage"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/em_usage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/linear_layout_background"
+            android:orientation="vertical"
+            android:padding="5sp" >
+
+            <!-- Email -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/em_email_explanation"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="6sp"
+                android:text="@string/psv_email"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/em_user_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/psv_email_hint"
+                android:inputType="textEmailAddress" >
+
+                <!-- <requestFocus /> -->
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/linear_layout_background"
+            android:orientation="vertical"
+            android:padding="5sp" >
+
+            <!-- Language Selection -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/em_language_source"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_language_source"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/em_language_target"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_language_target"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language_proficiency_text"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/language_proficiency"
+                android:id="@+id/spinner_language_proficiency"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5sp"
+            android:onClick="onDonePressed"
+            android:padding="5sp"
+            android:text="@string/ok"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</ScrollView>

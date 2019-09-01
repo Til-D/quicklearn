@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuickLearn</string>
+    <string name="tagline">Microlearning in Context</string>
+
+    <string name="hello_world">Welcome to QuickLearn!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_item_learn">Review Vocabulary</string>
+    <string name="menu_item_statistics">Progress</string>
+    <string name="menu_item_setup">Setup</string>
+    <string name="menu_item_about">About</string>
+    <string name="menu_title_settings">App</string>
+
+    <string name="psv_of">of</string>
+    <string name="wait">Please wait</string>
+    <string name="success">Success!</string>
+    <string name="error">Error!</string>
+    <string name="ok">OK</string>
+    <string name="empty"/>
+    <string name="opensettingsbutton">Open Accessibility Settings</string>
+    <string name="opennotifsettingsbutton">Open Notification Settings</string>
+
+    <string name="header_quick_spanish_task">Quick Spanish task!</string>
+    <string name="header_quick_german_task">Quick German task!</string>
+
+    <string name="text_task_complete">Task complete!</string>
+
+    <string name="button_knew_it">Knew it!</string>
+    <string name="button_did_not_know">Did not know!</string>
+    <string name="button_translate">Translate</string>
+    <string name="button_quit">Quit</string>
+    <string name="button_more_words">More words!</string>
+    <string name="button_continue">Continue</string>
+
+    <string name="learning_mode_fc">Flashcard</string>
+    <string name="learning_mode_mc">Multiple Choice</string>
+
+    <!-- About Us -->
+    <string name="about_title">About Us</string>
+
+    <!-- Consent -->
+    <string name="con_title">Consent (Step 1 of 3)</string>
+    <string name="con_intro">Welcome to QuickLearn! This app is part of a scientific study, in which we aim to learn more about situations in which language learning is appropriate and effective. Read all the details here: http://tilmanification.org/quicklearn.html</string>
+    <string name="con_portrait">Portrait of the researchers that organise the study</string>
+    <string name="con_contact">"This study is conducted by Tilman Dingler and Melissa Densmore. In case you have questions, please contact us at userstudies@hcilab.org."</string>
+    <string name="con_esm">"From time to time, QuickLearn will suggest you to review some vocabulary, mostly through notifications. However, if you don't want to wait, you can also proactively launch the app and start learning."</string>
+    <string name="con_data">"By pressing accept, you allow QuickLearn to anonymously collect usage data in the background. All the data will be securely stored on a server in compliance with European data protection laws (BGBl. I S. 2325). Data will only be uploaded when you're connected to WiFi to prevent any upload cost. Your data will only be used in the context of our research and will never be shared with third parties. You can withdraw from the study at any moment by simply uninstalling the app. Thanks! And enjoy learning!</string>
+    <string name="con_btn_give_consent">Accept</string>
+    <string name="con_btn_not_now">Not Now</string>
+    <string name="con_could_not_register">No connection to our servers - are you connected to the Internet?</string>
+    <string name="setup_completed">Congratulations! You are all set up and can start learning!</string>
+
+    <!-- Statistics -->
+    <string name="statistics_title">Your Learning Progress</string>
+    <!--<string name="statistics_none">You have not reviewed enough words yet! Go start learning!</string>-->
+    <string name="statistics_none">For checking your progress, please come see us at the nexst check-in session!</string>
+    <string name="statistics_total">Congratulations! You already reviewed %2$d %1$s words!</string>
+    <string name="statistics_pct">You have encountered %1$s %% words already!</string>
+    <string name="text_statistics_vocabulary">Vocabulary</string>
+    <string name="text_statisics_vocabulary_size">%1$s words</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_source_language">Your selected mother tongue:</string>
+    <string name="settings_target_language">Language you are learning:</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_test_notification">Trigger Test Notification</string>
+    <string name="settings_study">Study Participation</string>
+    <string name="settings_data_consent">I agree to share my usage data.</string>
+    <string name="settings_data_consent_warning_title">Are you sure you want to drop out?</string>
+    <string name="settings_data_consent_warning_desc">If you decide not to share your data you can no longer participate in our study.</string>
+    <string name="settings_data_consent_quit">I want to quit.</string>
+    <string name="settings_data_consent_cancel">I want to keep participating.</string>
+    <string name="settings_data_consent_confirm">Thanks for sharing! It will help us making this app even better.</string>
+    <string name="settings_learning">Learning</string>
+    <string name="settings_learning_mode">Current learning mode:</string>
+    <string name="settings_device_info">Device Info</string>
+    <string name="settings_device_uid">Your uid: %1$s</string>
+    <string name="settings_app_version">App version: %1$s (%2$s)</string>
+    <string name="settings_last_log_upload">Last log upload: %1$s</string>
+
+    <!-- Accessbility Service Check -->
+    <string name="accessibility_service_label">QuickLearn</string>
+    <string name="accessibility_service_description">In order to allow QuickLearn to make predictions about when it is best to invite users for reviewing vocabulary, the application needs access to the accessbility service.</string>
+    <string name="title_activity_enable_accessibility">Accessbility Service Check</string>
+    <string name="acc_title">Enable <b>Accessibility</b> (Step 2 of 5)</string>
+    <string name="acc_alt">Screenshot of the accessibility settings where QuickLearn needs to be enabled</string>
+    <string name="acc_explanation">Great! QuickLearn needs to be registered as an accessibility service. Please press the button below to jump to the accessibility settings and enable QuickLearn.  Once QuickLearn is ON, press the Back button of your phone until you get back to this screen.</string>
+    <string name="acc_opensettings">Open Accessibility Settings</string>
+    <string name="acc_success">Accessibility service enabled!</string>
+
+    <!-- Notification Service Check -->
+    <string name="title_activity_enable_notification">Notification Service Check</string>
+    <string name="not_title">Enable <b>Notifications</b> (Step 2 of 3)</string>
+    <string name="not_alt">Screenshot of the notification settings where QuickLearn needs to be enabled</string>
+    <string name="not_explanation">Fantastic! Next, QuickLearn needs to be registered as a notification listener. Please press the button below to jump to the notification settings and enable QuickLearn. Once QuickLearn is ON, press the Back button of your phone until you get back to this screen.</string>
+    <string name="not_opensettings">Open Notification Settings</string>
+    <string name="not_success">Notification service enabled!</string>
+
+    <!-- Enable Network Location Check -->
+    <string name="title_activity_enable_network_location">Network Location Check</string>
+    <string name="nl_title">Enable <b>Network Location</b> (Step 2 of 3)</string>
+    <string name="nl_alt">Screenshot of the network location settings which need to be enabled</string>
+    <string name="nl_explanation">Now, please enable Googles location service.</string>
+    <string name="nl_opensettings">Open Location Settings</string>
+    <string name="nl_success">Location service enabled!</string>
+
+    <!-- Email -->
+    <string name="em_title">Demographics (Step 3 of 3)</string>
+    <string name="em_your_website">If you want QuickLearn to suggest a different website, please enter the URL here</string>
+    <string name="em_age">Age</string>
+    <string name="em_age_hint">-</string>
+    <string name="em_gender">Gender</string>
+    <string name="em_usage">Who uses this phone?</string>
+    <string name="em_email_explanation">Optionally, enter your email if you are interested in possible follow-ups of this study or in accessing additional vocabulary tests.</string>
+    <string name="psv_email">Your Email:</string>
+    <string name="psv_email_hint">-</string>
+
+    <string name="em_language_source">Select your mother tongue:</string>
+    <string name="em_language_target">Select which language you would like to learn:</string>
+
+    <string name="em_error_title">Error</string>
+    <string name="em_error_message_1">A language you are comfortable with: (e.g. your mother tongue):</string>
+    <string name="em_error_message_2">The language you want to learn:</string>
+    <string name="em_error_message_3">Your current language proficiency:</string>
+    <string name="em_error_message_4">Your mother tongue and the language you want to learn need to be different!</string>
+    <string name="em_error_message_5">Please enter your age:</string>
+    <string name="em_error_message_6">Please select your gender:</string>
+    <string name="em_error_ok">OK</string>
+
+    <!-- LanguageDictionary -->
+    <string name="file_wordlist">wordlist.tsv</string>
+    <string name="wordlist_encoding">UTF-8</string>
+
+    <string name="gender_female">female</string>
+    <string name="gender_male">male</string>
+    <string name="gender_other">other</string>
+    <string name="gender_wont_say">prefer not to say</string>
+
+    <string name="usage_me">Only me</string>
+    <string name="usage_friends">Me and my friend(s)</string>
+    <string name="usage_family">Me and my family</string>
+    <string name="usage_both">Me, friends, and family</string>
+    <string name="usage_other">Other</string>
+
+    <string name="title_activity_enter_email">EnterEmailActivity</string>
+
+    <!-- Flashcards -->
+    <string name="title_activity_flashcards">Flashcards</string>
+
+    <!-- Multiple Choice-->
+    <string name="title_activity_multiple_choice">Multiple Choice</string>
+    <string name="text_translation_correct">Correct</string>
+    <string name="text_translation_incorrect">Wrong</string>
+
+    <!-- Notifications -->
+    <string name="notif_title">Quick %1$s task!</string>
+    <string name="notif_mc_task">%1$s = ___________</string>
+    <string name="notif_fc_result">%1$s = %2$s</string>
+    <string name="notif_continue">Continue</string>
+    <string name="notif_correct">Correct!</string>
+    <string name="notif_incorrect">Incorrect!</string>
+    <string name="notif_quit">Quit</string>
+    <string name="notif_more_words">More words!</string>
+    <string name="notif_task_complete">Task complete!</string>
+    <string name="notif_translate">Translate</string>
+    <string name="notif_knew_it">Knew it!</string>
+    <string name="notif_did_not_know">Did not know!</string>
+
+    <!-- Info Dialog -->
+    <string name="info_title">Did you know?</string>
+    <string name="info_text">You can answer directly in the notification. Tap and drag down a QuickLearn notification to reveal the buttons.</string>
+    <string name="info_not_again">Do not show again</string>
+    <string name="info_ok">OK</string>
+
+    <!-- Language proficiency -->
+    <string name="language_proficiency_text">Current learning language proficiency:</string>
+    <string name="language_proficiency_1">None</string>
+    <!--<string name="language_proficiency_2">Elementary Proficiency</string>-->
+    <string name="language_proficiency_2">Beginner</string>
+    <string name="language_proficiency_3">Conversant</string>
+    <string name="language_proficiency_4">Full proficiency</string>
+    <!--<string name="language_proficiency_6">Native or proficiency</string>-->
+
+    <!-- Survey -->
+    <string name="title_activity_survey">Survey</string>
+    <string name="survey_title">Tell us more about your current learning context so we can improve the app in the future.</string>
+    <string name="survey_statement_1">1. Are you with people right now?</string>
+    <string name="survey_statement_2">2. Where are you currently learning?</string>
+    <string name="survey_statement_3">3. Is now a good time for you to learn?</string>
+    <string name="survey_feedback">4. Any comments and feedback regarding QuickLearn? (optional)</string>
+    <string name="survey_strongly_disagree">Strongly disagree</string>
+    <string name="survey_strongly_agree">Strongly agree</string>
+    <string name="survey_send">Submit</string>
+    <string name="survey_scale_1">1</string>
+    <string name="survey_scale_2">2</string>
+    <string name="survey_scale_3">3</string>
+    <string name="survey_scale_4">4</string>
+    <string name="survey_scale_5">5</string>
+    <string name="survey_error_title">Error</string>
+    <string name="survey_error_ok">OK</string>
+    <string name="survey_error_message_1">Please tell us about your learning context.</string>
+    <string name="survey_error_message_2">Please tell us about your learning location.</string>
+    <string name="survey_error_message_3">Please tell us if this is a good time for your to learn.</string>
+    <string name="survey_thanks">Thanks!</string>
+    <string name="survey_cond_flashcards">Flashcards</string>
+    <string name="survey_cond_multiple_choice">Multiple Choice</string>
+
+    <string name="social_alone">alone</string>
+    <string name="social_friends">friend(s)</string>
+    <string name="social_family">family</string>
+    <string name="social_public">in public</string>
+
+    <string name="location_work">at work</string>
+    <string name="location_home">at home</string>
+    <string name="location_transit">in transit</string>
+    <string name="location_other">other</string>
+
+    <string name="timing_opportune_yes">yes</string>
+    <string name="timing_opportune_no">no</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>

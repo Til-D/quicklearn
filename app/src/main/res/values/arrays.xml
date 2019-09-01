@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gender_array">
+        <item>-</item>
+        <item>@string/gender_female</item>
+        <item>@string/gender_male</item>
+        <item>@string/gender_other</item>
+        <item>@string/gender_wont_say</item>
+    </string-array>
+
+    <string-array name="usage_array">
+        <item>-</item>
+        <item>@string/usage_me</item>
+        <item>@string/usage_friends</item>
+        <item>@string/usage_family</item>
+        <item>@string/usage_both</item>
+        <item>@string/usage_other</item>
+    </string-array>
+
+    <string-array name="language_proficiency">
+        <item>-</item>
+        <item>@string/language_proficiency_1</item>
+        <item>@string/language_proficiency_2</item>
+        <item>@string/language_proficiency_3</item>
+        <item>@string/language_proficiency_4</item>
+        <!--<item>@string/language_proficiency_5</item>-->
+        <!--<item>@string/language_proficiency_6</item>-->
+    </string-array>
+
+    <string-array name="survey_social_context">
+        <item>-</item>
+        <item>@string/social_alone</item>
+        <item>@string/social_friends</item>
+        <item>@string/social_family</item>
+        <item>@string/social_public</item>
+    </string-array>
+
+    <string-array name="survey_location">
+        <item>-</item>
+        <item>@string/location_work</item>
+        <item>@string/location_home</item>
+        <item>@string/location_transit</item>
+        <item>@string/location_other</item>
+    </string-array>
+
+    <string-array name="survey_timing_opportune">
+        <item>-</item>
+        <item>@string/timing_opportune_yes</item>
+        <item>@string/timing_opportune_no</item>
+    </string-array>
+
+</resources>

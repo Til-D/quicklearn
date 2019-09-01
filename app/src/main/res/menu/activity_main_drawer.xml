@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_learn"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/menu_item_learn" />
+
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_equalizer_black_24dp"
+            android:title="@string/menu_item_statistics" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="@string/menu_item_about" />
+    </group>
+
+    <item android:title="@string/menu_title_settings">
+        <menu>
+            <!--<item-->
+                <!--android:id="@+id/nav_setup"-->
+                <!--android:icon="@drawable/ic_play_circle_outline_black_24dp"-->
+                <!--android:title="@string/menu_item_setup" />-->
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_tune_black_24dp"
+                android:title="@string/action_settings" />
+        </menu>
+    </item>
+
+</menu>
