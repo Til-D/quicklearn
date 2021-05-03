@@ -1,6 +1,6 @@
 # QuickLearn
 
-QuickLeanr is an Android app designed to study context and situations in which language learning is appropriate and effective. 
+QuickLearn is an Android app designed to study context and situations in which language learning is appropriate and effective. 
 
 For more information, please see the following [publication](https://dl.acm.org/citation.cfm?id=3098565): 
 > Dingler, Tilman, Dominik Weber, Martin Pielot, Jennifer Cooper, Chung-Cheng Chang, and Niels Henze. "Language learning on-the-go: opportune moments and design of mobile microlearning sessions." In Proceedings of the 19th International Conference on Human-Computer Interaction with Mobile Devices and Services, p. 28. ACM, 2017.
